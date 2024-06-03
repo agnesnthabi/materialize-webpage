@@ -1,0 +1,68 @@
+{
+    "user": {
+        "fullName": "Nthabiseng Agnes Mathabatha",
+        "photo": "images/nayna.jpg"
+    },
+    "city": {
+        "name": "Dubai",
+        "photo": "images/Webp.net-resizeimage.jp",
+        "description": "Dubai is like a playground of the future! The towering skyscrapers, the stunning architectural marvels like the Burj Khalifa and the Palm Jumeirah, the luxurious lifestyle, and the blend of modernity with traditional culture make it a fascinating destination. Plus, there's the allure of  experiencing the desert safari, exploring the bustling souks, indulging in world-class shopping, and enjoying the vibrant nightlife. It's a city that constantly reinvents itself, offering a unique mix of adventure,  luxury, and culture that's hard to resist."
+    },
+    "foreignLanguage": {
+        "language": "Spanish",
+        "description": "It's the second most spoken language in the world, with a rich history and widespread cultural  influence across Europe, the Americas, and beyond.  Learning a new language, for example, opens up opportunities for communication, cultural  understanding, and career advancement. It can also boost confidence and provide a sense of accomplishment. So, learning is not just about  acquiring knowledge but also about enriching one's life experiences and connections with others.",
+        "phrases": [
+            {
+                "englishPhrase": "Love",
+                "foreignLanguage": "Amor"
+            },
+            {
+                "englishPhrase": "Good morning",
+                "foreignLanguage": "Buenos días"
+            },
+            {
+                "englishPhrase": "Hello",
+                "foreignLanguage": "Hola"
+            },
+            {
+                "englishPhrase": "Beautiful",
+                "foreignLanguage": "Hermosa"
+            },
+            {
+                "englishPhrase": "Time",
+                "foreignLanguage": "Tiempo"
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "name": "Full Stack Web Development",
+            "photo": "images/Webp.net-resizeimage (2).jpg"
+        },
+        {
+            "name": "Engineering Business Systems",
+            "photo": "images/Webp.net-resizeimage (1).jpg"
+        },
+        {
+            "name": "4IR Technologies Bootcamp",
+            "photo": "images/Webp.net-resizeimage.png"
+        }
+    ],
+    "HistoricalPlaces": [
+        {
+            "name": "Gold Reef City",
+            "description": "The park's highlights include the Anaconda roller coaster, the Tower of  Terror, and the Jozi Express.Visitors can enjoy traditional African music and dance performances. It also  features a wide range of attractions  and entertainment options for visitors of all ages.",
+            "photo": "images/Webp.net-resizeimage (3).jpg"
+        },
+        {
+            "name": "Johannesburg Heritage Foundation",
+            "description": "The JHF is committed to educational outreach and public awareness initiatives.Over the years, the foundation has played significant role in raising awareness about the city's rich history and advocating for the conservation of its  heritage sites.The JHF is actively involved in identifying,  documenting, and protecting historical buildings, sites, and neighborhoods in Johannesburg.",
+            "photo": "images/Webp.net-resizeimage (7).jpg"
+        },
+        {
+            "name": "Johannesburg Constitution Hill",
+            "description": "After the end of apartheid, Constitution Hill was transformed into a symbol of democracy and human rights. It features museums, exhibitions, and guided tours that explore  various aspects of the country's past. It hosts regular events, performances, and art  exhibitions that promote dialogue.",
+            "photo": "images/Webp.net-resizeimage (8).jpg"
+        }
+    ]
+}
