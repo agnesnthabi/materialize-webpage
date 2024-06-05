@@ -11,7 +11,7 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
              
 </head>
-<body  class="card-panel #ea80fc purple accent-1">
+<body  class="card-panel #ffe082 amber lighten-3">
     
     <main>
         <section class= "row">
@@ -38,7 +38,7 @@
 
         <section>
             <div class="langg">
-                <h3 class="foreignLang">{{foreignLanguage.language}}</h3>
+                <h3 class="foreignLang">{{foreignLanguage.name}}</h3>
                 <p>{{foreignLanguage.description}}</p>
             </div>
             
@@ -50,107 +50,46 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {{#each foreignLanguage.translations}}
                     <tr>
-                        <td >Good Morning</td>
-                        <td >Buenos días</td>
+                        <td>{{english}}</td>
+                        <td>{{spanish}}</td>
                     </tr>
-                    <tr>
-                        <td >Hello</td>
-                        <td >Hola</td>
-                    </tr>
-                    <tr>
-                        <td >Love</td>
-                        <td >Amor</td>
-                    </tr>
-                    <tr>
-                        <td >Beautiful</td>
-                        <td >Hermosa</td>
-                    </tr>
-                    <tr>
-                        <td >Time</td>
-                        <td >Tiempo</td>
-                    </tr>
+                    {{/each}}
                </tbody>
             </table>
         </section>
 
         <section>
-            <h3>Bsc Mathematical Sciences(Computer Science and Statistics)~University Of Limpopo</h3>
-            <h3 class="txt">Favourite Subjects</h3>
+            <h3>{{education.degree}}</h3>
+            <h3 class="txt">{{education.sub}}</h3>
             <div class="row">
-                <div class ="col s12 m4 l4">
-                    <h4>Full Stack Web Development</h4>
-                    <img class="sub"
-                        src="images/Webp.net-resizeimage (2).jpg">
-                </div>
-                <div class ="col s12 m4 l4">
-                    <h4>Engineering Business Systems</h4>
-                    <img class="sub"
-                        src="images/Webp.net-resizeimage (1).jpg">
-                </div>
-                <div class ="col s12 m4 l4">
-                    <h4>4IR Technologies Bootcamp</h4>
-                    <img class="sub"
-                        src="images/Webp.net-resizeimage.png">
-                </div>
+                {{#each education.favouriteSubjects}}
+        <div class="col s12 m4 l4">
+            <h4>{{name}}</h4>
+            <img class="sub" src="{{image}}" alt="{{name}}">
+        </div>
+        {{/each}}
             </div>
         </section>
 
         <section>
-            <h3>Historical Places</h3>
+            <h3>{{places.place}}</h3>
             <div class="row">
-                <div class ="col s12 m4 l4">
-                    <h4>Gold Reef City</h4>
+                {{#each places.historicalPlaces}}
+                <div class="col s12 m4 l4">
+                    <h4>{{name}}</h4>
                     <div class="col s12">
                         <div class="col s6">
-
-                            <p>The park's highlights include the Anaconda roller coaster, the Tower of
-                                Terror, and the
-                                Jozi Express.Visitors can enjoy traditional African music and dance performances.It also
-                                features a wide range of attractions and entertainment options for visitors of all ages.
-                            </p>
+                            <p>{{description}}</p>
                         </div>
                         <div class="col s6">
-                            <img
-                                src="images/Webp.net-resizeimage (3).jpg">
-                        </div>
-                    </div>
-                 </div>
-
-                <div class ="col s12 m4 l4">
-                    <h4>Johannesburg Heritage Foundation</h4>
-                    <div class="col s12">
-                        <div class="col s6">
-
-                            <p>The JHF is committed to educational outreach and public awareness
-                                initiatives.Over the years, the foundation has played a significant role in raising
-                                awareness about the city's rich history and advocating for the conservation of its
-                                heritage sites.The JHF is actively involved in identifying, documenting, and protecting
-                                historical buildings, sites, and neighborhoods in Johannesburg.
-                            </p>
-                        </div>
-                        <div class="col s6" >
-                            <img src="images/Webp.net-resizeimage (7).jpg">
+                            <img src="{{image}}" alt="{{name}}">
                         </div>
                     </div>
                 </div>
-                <div class ="col s12 m4 l4">
-                    <h4>Johannesburg Constitution Hill</h4>
-                    <div class="col s12">
-                        <div class="col s6">
-                            <p>After the end of apartheid, Constitution Hill was transformed into a symbol of democracy
-                                and human rights. It features museums, exhibitions, and guided tours that explore
-                                various aspects of the country's past. It hosts regular events, performances, and art
-                                exhibitions that promote dialogue.
-                            </p>
-                        </div>
-                        <div class="col s6">
-                            <img src="images/Webp.net-resizeimage (8).jpg">
-                        </div>
-                    </div>
-                </div>
+                {{/each}}
             </div>
-
         </section>
 
     </main>
