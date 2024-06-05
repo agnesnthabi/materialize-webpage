@@ -24,7 +24,7 @@ jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: github-pages
+      name: GitHub-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
@@ -47,5 +47,5 @@ jobs:
           # Upload dist repository
           path: './dist'
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: Deployment
         uses: actions/deploy-pages@v1
