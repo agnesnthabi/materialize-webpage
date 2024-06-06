@@ -6,7 +6,7 @@
     },
     "city": {
         "name": "Dubai",
-        "photo": "images/Webp.net-resizeimage.jpg",
+        "photo": "./Webp.net-resizeimage.jpg",
         "description": "Dubai is like a playground of the future! The towering skyscrapers, the stunning architectural marvels like the Burj Khalifa and the Palm Jumeirah, the luxurious lifestyle, and the blend of modernity with traditional culture make it a fascinating destination. Plus, there's the allure of  experiencing the desert safari, exploring the bustling souks, indulging in world-class shopping, and enjoying the vibrant nightlife. It's a city that constantly reinvents itself, offering a unique mix of adventure,  luxury, and culture that's hard to resist."
     },
     "foreignLanguage": {
@@ -26,15 +26,15 @@
         "favouriteSubjects": [
             {
                 "name": "Full Stack Web Development",
-                "image": "images/Webp.net-resizeimage (2).jpg"
+                "image": "./Webp.net-resizeimage (2).jpg"
             },
             {
                 "name": "Engineering Business Systems",
-                "image": "images/Webp.net-resizeimage (1).jpg"
+                "image": "./Webp.net-resizeimage (1).jpg"
             },
             {
                 "name": "4IR Technologies Bootcamp",
-                "image": "images/Webp.net-resizeimage.png"
+                "image": "./Webp.net-resizeimage.png"
             }
         ]
     },
@@ -44,17 +44,17 @@
             {
                 "name": "Gold Reef City",
                 "description": "The park's highlights include the Anaconda roller coaster, the Tower of Terror, and the Jozi Express. Visitors can enjoy traditional African music and dance performances. It also features a wide range of attractions and entertainment options for visitors of all ages.",
-                "image": "images/Webp.net-resizeimage (3).jpg"
+                "image": "./Webp.net-resizeimage (3).jpg"
             },
             {
                 "name": "Johannesburg Heritage Foundation",
                 "description": "The JHF is committed to educational outreach and public awareness initiatives. Over the years, the foundation has played a significant role in raising awareness about the city's rich history and advocating for the conservation of its heritage sites. The JHF is actively involved in identifying, documenting, and protecting historical buildings, sites, and neighborhoods in Johannesburg.",
-                "image": "images/Webp.net-resizeimage (7).jpg"
+                "image": "./Webp.net-resizeimage (7).jpg"
             },
             {
                 "name": "Johannesburg Constitution Hill",
                 "description": "After the end of apartheid, Constitution Hill was transformed into a symbol of democracy and human rights. It features museums, exhibitions, and guided tours that explore various aspects of the country's past. It hosts regular events, performances, and art exhibitions that promote dialogue.",
-                "image": "images/Webp.net-resizeimage (8).jpg"
+                "image": "./Webp.net-resizeimage (8).jpg"
             }
         ]
     }
