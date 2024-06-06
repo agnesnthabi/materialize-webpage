@@ -1,8 +1,7 @@
 {
-    
     "user": {
         "fullName": "Nthabiseng Agnes Mathabatha",
-        "photo": "images/nayna.jpg"
+        "photo": "./nayna.jpg"
     },
     "city": {
         "name": "Dubai",
@@ -11,13 +10,28 @@
     },
     "foreignLanguage": {
         "name": "Spanish",
-      "description": "It's the second most spoken language in the world, with a rich history and widespread cultural influence across Europe, the Americas, and beyond. Learning a new language, for example, opens up opportunities for communication, cultural understanding, and career advancement. It can also boost confidence and provide a sense of accomplishment. So, learning is not just about acquiring knowledge but also about enriching one's life experiences and connections with others.",
+        "description": "It's the second most spoken language in the world, with a rich history and widespread cultural influence across Europe, the Americas, and beyond. Learning a new language, for example, opens up opportunities for communication, cultural understanding, and career advancement. It can also boost confidence and provide a sense of accomplishment. So, learning is not just about acquiring knowledge but also about enriching one's life experiences and connections with others.",
         "translations": [
-            { "english": "Good Morning", "spanish": "Buenos días" },
-            { "english": "Hello", "spanish": "Hola" },
-            { "english": "Love", "spanish": "Amor" },
-            { "english": "Beautiful", "spanish": "Hermosa" },
-            { "english": "Time", "spanish": "Tiempo" }
+            {
+                "english": "Good Morning",
+                "spanish": "Buenos días"
+            },
+            {
+                "english": "Hello",
+                "spanish": "Hola"
+            },
+            {
+                "english": "Love",
+                "spanish": "Amor"
+            },
+            {
+                "english": "Beautiful",
+                "spanish": "Hermosa"
+            },
+            {
+                "english": "Time",
+                "spanish": "Tiempo"
+            }
         ]
     },
     "education": {
@@ -58,5 +72,4 @@
             }
         ]
     }
-   
 }
