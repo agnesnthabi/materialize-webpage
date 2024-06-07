@@ -13,13 +13,13 @@
 </head>
 <body  class="card-panel #ffe082 amber lighten-3">
     
-    <main>
+    <main class="container">
         <section class= "row">
             <div class="col s12 m6 l6">
                 <h3>{{user.fullName}}</h3>
             </div>
             <div class = "col s12 m6 l6">
-                <img src={{user.photo}}>
+                <img src="{{user.photo}}">
             </div>
         </section>
 
@@ -28,7 +28,7 @@
 
                 <div class="col s12 m6 l6">
                     <h2>{{city.name}}</h2>
-                    <img src={{city.photo}}>
+                    <img src="{{city.photo}}">
                 </div>
                 <div class="col s12 m6 l6">
                     <p>{{city.description}}</p>
@@ -80,10 +80,10 @@
                 <div class="col s12 m4 l4">
                     <h4>{{name}}</h4>
                     <div class="col s12">
-                        <div class="col s6">
+                        <div class="col s6 l6">
                             <p>{{description}}</p>
                         </div>
-                        <div class="col s6">
+                        <div class="col s6 l6">
                             <img src="{{image}}" alt="{{name}}">
                         </div>
                     </div>
